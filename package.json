@@ -1,6 +1,6 @@
 {
   "name": "ftp-deploy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GitHub action - FTP deploy",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/januszmarcinik/ftp-deploy.git"
+    "url": "git+https://github.com/kemalturk/ftp-deploy.git"
   },
   "keywords": [
     "GitHub",
@@ -18,12 +18,11 @@
     "FTP",
     "Deploy"
   ],
-  "author": "Janusz Marcinik",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/januszmarcinik/ftp-deploy/issues"
+    "url": "https://github.com/kemalturk/ftp-deploy/issues"
   },
-  "homepage": "https://github.com/januszmarcinik/ftp-deploy",
+  "homepage": "https://github.com/kemalturk/ftp-deploy",
   "dependencies": {
     "@actions/core": "^1.2.3",
     "ftp-deploy": "^2.3.7"

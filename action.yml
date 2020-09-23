@@ -1,6 +1,5 @@
 name: 'Deploy app by FTP'
 description: 'Deploy your build to any FTP server'
-author: 'Janusz Marcinik'
 inputs:
   server:
     description: 'FTP server address, eg: 127.0.0.1'
@@ -13,6 +12,9 @@ inputs:
     required: true
   localRoot:
     description: 'Local root for source files that will be transferred to the destination, eg: "dist"'
+    required: true
+  remoteRoot:
+    description: 'Remote root for destination'
     required: true
 outputs:
   result:
